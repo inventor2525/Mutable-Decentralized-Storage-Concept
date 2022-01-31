@@ -101,3 +101,6 @@ I would think that, "type" could include, by convention, some sort of filter syn
 
 In this way, all content DAGs can be transversed, mutably, using what ever relationships the community wishes to specify.
 
+## Part 2
+*Developing trust in peers*
+??
