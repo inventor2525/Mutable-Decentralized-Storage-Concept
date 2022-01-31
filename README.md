@@ -1,5 +1,6 @@
 This is an evolving concept on versioned mutable and replyable decentralized storage.
 
+*(Skip to [proposal](#proposal))*
 # Purpose
 The purpose of this is to provide a means for anyone to reply to any piece of content, with future versions or (dis)similar content of any form, using the existing peer discovery methods already used in **trackerless** torrents, IPFS, and others.
 
