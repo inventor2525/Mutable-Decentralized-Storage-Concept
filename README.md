@@ -59,6 +59,7 @@ The hash function chosen is designed with the advantage of making it easier for 
 
 A new system to facilitate such linking, from the peers interested in the original content themselves, is what is proposed here. First however, we will look at other existing methods.
 
+(TODO)
 ### Note:
 > This is NOT the same problem as giving that content a name that a human can remember!
 > 
@@ -103,4 +104,6 @@ In this way, all content DAGs can be transversed, mutably, using what ever relat
 
 ## Part 2
 *Developing Trust in Peers*
+
 ??
+(TODO)
