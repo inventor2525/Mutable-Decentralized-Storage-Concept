@@ -92,6 +92,9 @@ This would get at most 'n' other keys related to 'key' of a certain type of rela
 > - "previous" : returns a list of keys for any content this content modified, in reverse sequential order (reverse because remember, only n is requested to prevent spamming, going back further would just require requesting again from the same peer [or others!] for the last key returned)
 > - "references" : returns a list of keys for any content this content partly or wholly references without modification. (This could be a new way for scientific sources to inform each other of references without requiring a shared database or direct contact to do that!)
 > - "replies" : returns a list of keys to any replies to the content. These could be from anyone, from only your own peer, to others that you are aware of, or even a list of replies of others you host as a social media service, chat section, forum, or email. Every piece of content could be replied to with this… From anyone. And no one would have to host what replies they were not interested in. Reply content could be encrypted or public.
+> - "children" or "parent" : Directed Graph data structures
+> - "archive" : Think of this like returning a git pack file. An efficient file compression of all versions of text or code for a thing.
+> - "signature" : facilitates any third party signing a piece of content.
 > > - Others could include: likes / dislike, rating, etc. All of those are just content, signed by an identity. (which is it self, content)
 
 I would think that, "type" could include, by convention, some sort of filter syntax as well (possibly on top of those base operations and others), but what that looks like or why I'll leave to the reader.
