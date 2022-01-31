@@ -85,7 +85,7 @@ def get_related(
 ```
 This would get at most 'n' other keys related to 'key' of a certain type of relationship_type.
 
-- 'key' could be anything. -- Info hashes, content addresses, message|DID, anything! -- Taking care to avoid hash collisions of course! (This is used in git's Merkle DAG however, so should be fine if careful.)
+- 'key' could be anything. -- Info hashes, content addresses, message|DID, anything!
 - By convention, anything over 'n' could be considered an attack by that peer, causing them to be dropped.
 - "relation_type" strings would be chosen by the community like port numbers, but could first include as a standard:
 > - "next" : returns a list of keys of any changes to the content, in sequential order, either by that peer or that that peer is aware of.
