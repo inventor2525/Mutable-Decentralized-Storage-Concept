@@ -8,7 +8,7 @@ The purpose of this is to provide a means for anyone to reply to any piece of co
 
 A result of this **may** be to "invert" web indexing so that it is outward from content of interest, rather than top down: which (lacking a central entity) must index all content in order to find all references to a single content. -- This would make search, into a filter and trust problem only.
 
-> For the purposes of this proposal, mutable and replyable will be taken as roughly the same thing, and content will mean ANY content: This could be social media replies. It could mean likes, dislikes, or reviews, signed by a cryptographic identity. It could mean videos of photos. It could mean edits or "forks" of content (educational, encyclopedic, blog, anything!). It could mean user id's and bio's, or encrypted personal browsing history. Anything!
+> For the purposes of this proposal, mutable and replyable will be taken as roughly the same thing, and content will mean ANY content: This could be social media replies. It could mean likes, dislikes, or reviews, signed by a cryptographic identity. It could mean videos or photos. It could mean edits or "forks" of content (educational, encyclopedic, blog, anything!). It could mean user id's and bio's, or encrypted personal browsing history. Anything!
 > 
 > Additionally, a peer will be taken as any person or computer interested in some content or related content.
 
