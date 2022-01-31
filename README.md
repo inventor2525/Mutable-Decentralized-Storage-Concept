@@ -68,7 +68,7 @@ A new system to facilitate such linking, from the peers interested in the origin
 
 # Proposal
 ## Part 1
-*Reference sharing*
+*Content Relation Sharing*
 
 Add a single message & reply to facilitate passing of related content addresses or supporting URIs between peers.
 
@@ -102,5 +102,5 @@ I would think that, "type" could include, by convention, some sort of filter syn
 In this way, all content DAGs can be transversed, mutably, using what ever relationships the community wishes to specify.
 
 ## Part 2
-*Developing trust in peers*
+*Developing Trust in Peers*
 ??
