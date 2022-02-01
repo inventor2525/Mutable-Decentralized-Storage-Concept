@@ -6,8 +6,12 @@ The purpose of this is to provide a means for anyone to reply to any piece of co
 
 *(Trackers can of course be optionally used too.)*
 
-A result of this **may** be to "invert" web indexing so that it is outward from content of interest, rather than top down: which (lacking a central entity) must index all content in order to find all references to a single content. -- This would make search, into a filter and trust problem only.
+A result of this proposal may be to "invert" most web indexing so that it is outward from content of interest, rather than top down.
+> Lacking a central entity to house similar content (as we have now in many cases!), web indexing would have to regularly re-index **all** content in order to find all references to a single piece of content.
 
+This proposal, would make search of decentralized content into a filter and trust problem more than a crawling problem, and make indexing <u>within</u> a topic or group of people much more efficient. -- This could therefor also greatly effect search of federated content (blogs, different social media platforms, different encyclopedias, etc), like we have now.
+
+# Definitions
 > For the purposes of this proposal, mutable and replyable will be taken as roughly the same thing, and content will mean ANY content: This could be social media replies. It could mean likes, dislikes, or reviews, signed by a cryptographic identity. It could mean videos or photos. It could mean edits or "forks" of content (educational, encyclopedic, blog, anything!). It could mean user id's and bio's, or encrypted personal browsing history. Anything!
 > 
 > Additionally, a peer will be taken as any person or computer interested in some content or related content.
