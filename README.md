@@ -17,7 +17,7 @@ This proposal, would make search of decentralized content into a filter and trus
 > Additionally, a peer will be taken as any person or computer interested in some content or related content.
 
 # Motivation
-Centralized social media and search engines have proven themselves to be very bias, and even limited in their view of the world. Even decentralization systems can fail if an artificial consensus mechanism fails to capture the needs of a minority voice. This needs to be improved ever more, because every time that bias shows, it fragments the greater community, causing further isolation and tension.
+Centralized social media and search engines have proven themselves to be very bias, and even limited in their view of the world. Even decentralized systems can fail if an artificial consensus mechanism fails to capture the needs of a minority voice. This needs to be improved ever more, because every time that bias shows, it fragments the greater community, causing further isolation and tension.
 
 Additionally: We can not keep loosing our history! Archival must be done on a much larger scale, in a way that is still fully interactable and relatable with the current content, as though it were the original!
 
