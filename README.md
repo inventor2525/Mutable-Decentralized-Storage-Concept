@@ -43,6 +43,7 @@ This means that any "decentralized" social media or storage replacement, must ei
 1. Suffer the non-discoverability of the replies to content (given the time taken to FIND them)
 2. Build **very** computationally or memory inefficient consensus mechanisms to facilitate discoverability, within any of a frequently very limited sized communities suffering from massively many similar but nearly incompatible implementations (eg, blockchains).
 3. Rely on a central entity still, to facilitate the descoverability by hosting the relationships held between pieces of content. -- Whether those pieces of content are held decentrally or not.
+4. Use a federated model of publish and subscribe that still relies on a small set of communities (By small I mean much less of than number of peers!) for most people. And even if everyone had their own web-domain, it still relies solely on DNS to find those domains (again, far less of than there are peers).
 
 Additionally, as a search provider, you have to sufficiently understand the content to understand it's relations to other content.
 
