@@ -2,7 +2,7 @@ This is an evolving concept on versioned mutable and replyable decentralized sto
 
 *(Skip to [proposal](#proposal))*
 # Purpose
-The purpose of this is to provide a means for anyone to reply to any piece of content, with future versions or (dis)similar content of any form, using the existing peer discovery methods already used in **trackerless** torrents, IPFS, and others.
+The purpose of this is to provide a means for anyone to reply to any piece of content, with future versions or (dis)similar content of any form, using the existing peer discovery methods already used in [**trackerless** torrents](#trackerless-torrents), IPFS, and others.
 
 *(Trackers can of course be optionally used too.)*
 
@@ -60,13 +60,25 @@ The hash function chosen is designed with the advantage of making it easier for 
 
 A new system to facilitate such linking, from the peers interested in the original content themselves, is what is proposed here. First however, we will look at other existing methods.
 
-(TODO)
-### Note:
+#### Note:
 > This is NOT the same problem as giving that content a name that a human can remember!
 > 
 > Although some solutions have chosen to solve that problem together with mutability, they are not required to be solved together, and the later is quite easy to do with existing systems or others (optionally such as IP based DNS and HTTP, or a blockchain [or multiple!]).
 > 
 > Additionally, if mutability were fully solved, implementing a mapping of human readable name to content address, and storing that decentrally, would be trivial.
+
+### Trackerless Torrents
+In order for torrents to pass files between computers over the web, those computers must first be able to find other computers interested in the same torrent. This problem is called "peer discovery", and it is a shared problem with all decentralized systems. 4 primary ways are used to solve this problem:
+1. Trackers, any one of which is a server that tracks which peers are downloading which torrent. Peers ask the tracker(s) when they first download a torrent file, what other peers there are, and it responds. It hypothetically knows nothing of content, but it is a centralized failure point. An advantage is that there can be multiple, but it is non ideal being that there is less of them than peers to either fail or collude.
+2. Decentralized Hash Tables (DHTs), which work by a lost peer asking any peer it knows for a torrent's info hash *(or more generally, a content address, as this can be used with other systems as well)*, and that peer will respond with peers that are usually "closer" to that content address (torrent). The concept of closeness is mathematically chosen, wisely, so that each peer only has to remember a small number of peers in such a way where any peer trying to find content will only have to ask log(n) peers of the total n peers on the DHT in order to find SOME peers with that content (aka, a very small percentage! -- example: any lost peer would only normally have to ask 12 of 1 trillion peers to find someone else with their torrent).
+3. Peer Exchange (PEX), which facilitates peers on an active swarm *(those currently pulling or serving a specific torrent)*, being able to tell each other about all the other peers on that swarm directly. This can of course be a lot more effective than a DHT once you find SOME peers because a DHT could go looking all over the place and is generally not going to remember more than 8 peers for a segment of many torrents (in it's default implementation at least).
+4. Hard coded Peers and trackers. Aka, some list of things to start with in the search for more.
+
+*Also, there is manual entry to fall back on, but usually only used in the most extreme circumstances*
+
+### IPFS
+### LBRY
+(TODO)
 
 # Proposal
 ## Part 1
